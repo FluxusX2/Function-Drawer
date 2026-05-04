@@ -6,7 +6,7 @@
 #define FUNCTIONDRAWING_COMPUTINGFUNC_H
 
 inline float quadraticFunc(float x) {
-    return x * x;
+    return std::pow(x, 3);
 }
 
 #endif //FUNCTIONDRAWING_COMPUTINGFUNC_H

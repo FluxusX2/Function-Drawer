@@ -10,6 +10,10 @@ struct Vertex {
     glm::vec2 coords{};
     glm::vec4 colors{};
 
+    Vertex() {
+
+    }
+
     Vertex(glm::vec2 vec, glm::vec4 vec4) {
         this->coords = vec;
         this->colors = vec4;
